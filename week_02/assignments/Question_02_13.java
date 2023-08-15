@@ -20,13 +20,13 @@ public class Question_02_13 {
 
         totalAmount=(savingAmount+totalAmount)*(1+MONTHLY_INTEREST_RATE);
 
-        totalAmount=(savingAmount+totalAmount)+(1+MONTHLY_INTEREST_RATE);
+        totalAmount=(savingAmount+totalAmount)*(1+MONTHLY_INTEREST_RATE);
 
-        totalAmount=(savingAmount+totalAmount)+(1+MONTHLY_INTEREST_RATE);
+        totalAmount=(savingAmount+totalAmount)*(1+MONTHLY_INTEREST_RATE);
 
-        totalAmount=(savingAmount+totalAmount)+(1+MONTHLY_INTEREST_RATE);
+        totalAmount=(savingAmount+totalAmount)*(1+MONTHLY_INTEREST_RATE);
 
-        System.out.println("After the sixth month,the account value is  $"+totalAmount );
+        System.out.println("After the sixth month,the account value is  $"+(int)(totalAmount*100)/100.0 );
 
 
     }
