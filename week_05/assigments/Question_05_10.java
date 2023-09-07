@@ -8,14 +8,14 @@ public class Question_05_10 {
         int count = 0;
         for (firstNumber = 100; totalNumber > firstNumber; firstNumber++) {
             if (firstNumber % 5 == 0 && firstNumber % 6 == 0) {
+                System.out.print(firstNumber+" ");
                 count++;
-                if (count % NUMBERS_PER_LINE == 0) {
-                    System.out.println(firstNumber + " ");
-                } else {
-                    System.out.print(firstNumber + " ");
+                if ((count % NUMBERS_PER_LINE) == 0) {
+                    System.out.println();
+                }
 
                 }
             }
         }
     }
-}
+
