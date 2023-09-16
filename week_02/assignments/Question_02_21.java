@@ -9,7 +9,7 @@ public class Question_02_21 {
 
         System.out.print("Enter investment amount: ");
 
-        double investAmount = input.nextDouble();
+        double investmentAmount = input.nextDouble();
 
         System.out.print("Enter annual interest rate in percentage: ");
 
@@ -19,7 +19,7 @@ public class Question_02_21 {
 
         double numberOfYears = input.nextDouble();
 
-        double futureInvestmentValue = investAmount * Math.pow(1 + annualInterestRate / 100 / 12, numberOfYears * 12);
+        double futureInvestmentValue = investmentAmount * Math.pow(1 + annualInterestRate / 100 / 12, numberOfYears * 12);
 
         System.out.println("Accumulated value is $" + futureInvestmentValue);
     }

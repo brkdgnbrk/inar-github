@@ -7,7 +7,7 @@ public class Question_03_17 {
         Scanner input = new Scanner(System.in);
         System.out.print("scissor (0), rock (1), paper (2): ");
         int user = input.nextInt();
-        if(user<0||user>2){
+        if (user < 0 || user > 2) {
             System.out.println("İnvalid input. Please enter (0,1,2) ");
             System.exit(1);
         }
